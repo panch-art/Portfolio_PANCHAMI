@@ -3,7 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Full stack developer specializing in React, Node.js, and modern web technologies. Available for freelance projects and collaborations.">
+    <meta name="keywords" content="Soumik, Portfolio, Web Developer, React, Node.js, JavaScript, HTML, CSS, Freelance Developer">
+    <meta name="author" content="Soumik">
     <title>My Portfolio | Panchami J</title>
+    <!-- Open Graph Meta Tags for Social Media Sharing -->
+    <meta property="og:title" content="My Portfolio | Soumik">
+    <meta property="og:description" content="Full stack developer specializing in React, Node.js, and modern web technologies. Available for freelance projects and collaborations.">
+    <meta property="og:image" content="images/profile.jpg">
+    <meta property="og:url" content="[Your Portfolio URL]">
+    <meta property="og:type" content="website">
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="My Portfolio | Panchami J">
+    <meta name="twitter:description" content="Full stack developer specializing in React, Node.js, and modern web technologies. Available for freelance projects and collaborations.">
+    <meta name="twitter:image" content="images/profile.jpg">
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="images/favicon.png" alt="Favicon">
+ 
 </head>
 
 <body>
@@ -23,7 +41,11 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <img src="portfolio.jpeg" alt="Profile Photo" width="200">
+        <figure class="profile-figure">
+                    <img src="images/portfolio.jpeg" alt="Panchami J profile photo" width="300">
+                    <figcaption>Panchami J — Web Developer</figcaption>
+                </figure>
+      
         <p>I love building websites using HTML, CSS, JavaScript and React.</p>
     </section>
 
@@ -40,7 +62,7 @@
 
         <h3>Skills Table</h3>
 
-        <table>
+        <table border="1">
             <tr>
                 <th>Technology</th>
                 <th>Proficiency</th>
@@ -80,6 +102,8 @@
         <h3>Project 1</h3>
         <p>Description of Project 1</p>
         <a href="#">View Project</a>
+
+        <iframe width="300" height="169" src="https://www.youtube.com/embed/tqjJrXd27m4" title="YouTube video player" frameborder="0" allowfullscreen sandbox="allow-same-origin allow-scripts"></iframe>
     </section>
 
     <section id="contact">
@@ -89,16 +113,16 @@
         <form>
 
     <label>Name:</label><br>
-    <input type="text" placeholder="Enter your name" required><br><br>
+    <input type="text" placeholder="Enter your name" required><br>
 
     <label>Email:</label><br>
-    <input type="email" placeholder="Enter your email" required><br><br>
+    <input type="email" placeholder="Enter your email" required><br>
 
     <label>Password:</label><br>
-    <input type="password" placeholder="Enter your password" required><br><br>
+    <input type="password" placeholder="Enter your password" required><br>
 
     <label>Phone Number:</label><br>
-    <input type="tel" placeholder="Enter your phone number" required><br><br>
+    <input type="tel" placeholder="Enter your phone number" required><br>
 
     <label>Country:</label><br>
     <select>
@@ -130,7 +154,8 @@
 
     <br><br>
 
-    <button type="submit">Send Message</button>
+    
+    <button type="submit" aria-label="Submit button">Send Message 🚀</button>
 
 </form>
     </section>
